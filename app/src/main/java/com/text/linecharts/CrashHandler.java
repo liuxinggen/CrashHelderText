@@ -94,6 +94,7 @@ public class CrashHandler implements Thread.UncaughtExceptionHandler {
                     intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_NEW_TASK);
                     intent.setAction("com.error.text.NOTIFY_ERROR");
                     mContext.startActivity(intent);
+                    CompleteQuit.getInstance().exitAll(true);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
