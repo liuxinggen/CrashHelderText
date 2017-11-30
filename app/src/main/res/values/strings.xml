@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">LineCharts</string>
+
+    <!-- 报错处理 -->
+    <string name="error_title">错误报告</string>
+    <string name="error_tips">xxx遇到未知错误，我们对此引起的不便表示抱歉。我们已经生成了一个关于错误的报告，希望您发送此报告给我们以帮助改善产品质量。</string>
+    <string name="error_idea_tips">请描述一下这个问题是如何出现的？</string>
+    <string name="error_idea_hint">(不超过200字)</string>
+    <string name="ckb_report">是否提交报告</string>
+    <string name="btn_restart">重启应用</string>
+    <string name="btn_close">关闭应用</string>
+    <string name="file_upload_show_text">正在上传文件,请稍候 &#8230;</string>
 </resources>

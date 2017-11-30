@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ErrorActivity"
+            android:name=".NmaErrorActivity"
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="portrait"
             >

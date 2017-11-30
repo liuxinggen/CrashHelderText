@@ -1,0 +1,8 @@
+<resources>
+
+
+    <dimen name="btn_height">50dp</dimen>
+    <dimen name="margin_space_10">10dp</dimen>
+    <dimen name="margin_space_15">15dp</dimen>
+    <dimen name="toolbar_top_height">45.0dip</dimen>
+</resources>
